@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/movie/main",
+    "pages/account/main",
+    "pages/cinema/main",
+    "pages/city/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#01948C",
+    "navigationBarTitleText": "电影购票",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "购票",
+      "pagePath": "pages/movie/main",
+      "iconPath": "static/tabs/movie.png",
+      "selectedIconPath": "static/tabs/movie-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/account/main",
+      "iconPath": "static/tabs/account.png",
+      "selectedIconPath": "static/tabs/account-active.png"
+    }],
+
+    "items": [{
+      "name": "购票",
+      "pagePath": "pages/movie/main",
+      "icon": "static/tabs/movie.png",
+      "activeIcon": "static/tabs/movie-active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/account/main",
+      "icon": "static/tabs/account.png",
+      "activeIcon": "static/tabs/account-active.png"
+    }],
+    "position": "bottom"
+  }
+}

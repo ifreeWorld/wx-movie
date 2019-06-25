@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "wux-sticky": "/static/wux/sticky/index",
+    "wux-sticky-item": "/static/wux/sticky-item/index",
+    "wux-icon": "/static/wux/icon/index"
+  }
+}
